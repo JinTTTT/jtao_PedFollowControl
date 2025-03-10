@@ -6,7 +6,7 @@ import math
 import numpy as np
 import time
 from enum import Enum
-from kfzbshtl_control_ped_follow_jin_tao.helper_functions import steering_control, prepare_steering_debug_msgs, distance_control
+from control_ped_follow_jin_tao.helper_functions import steering_control, prepare_steering_debug_msgs, distance_control
 from kfzbshtl_msgs.msg import StampedControlGuardInfo  # Import for StampedControlGuardInfo
 
 class MissionState(Enum):

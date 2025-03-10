@@ -5,7 +5,7 @@ import math
 import numpy as np
 import time
 from kfzbshtl_msgs.msg import StampedControlGuardCmdLongitudinal, StampedControlGuardCmdLateral, StampedControlGuardInfo, PidDebugInfo
-from kfzbshtl_control_ped_follow_jin_tao.helper_functions import velocity_control
+from control_ped_follow_jin_tao.helper_functions import velocity_control
 
 class LowLevelController(Node):
     def __init__(self):
