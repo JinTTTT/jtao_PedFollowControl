@@ -2,6 +2,8 @@
 
 This system is developed based on **ROS2 Humble** and **Ubuntu 22.04**, designed for pedestrian interaction and tracking control in autonomous driving scenarios. It must be used in conjunction with a functioning perception system.
 
+![Screenshot 2025-03-10 at 21 35 34](https://github.com/user-attachments/assets/a75ce15f-a455-47fa-a8a4-66649719639a)
+
 ## System Inputs and Outputs
 
 ### Inputs:
@@ -28,7 +30,6 @@ The core code is organized in the `src` directory with the following key compone
 
 - `gui_node.py`:  
   Provides a visualization GUI for monitoring system status, vehicle and pedestrian positions, as well as real-time commands.
-  ![Screenshot 2025-03-10 at 21 35 34](https://github.com/user-attachments/assets/a75ce15f-a455-47fa-a8a4-66649719639a)
 
 - `motion_estimator.py`:  
   Estimates the global coordinates of pedestrians and computes vehicle positions and orientations based on provided inputs.
